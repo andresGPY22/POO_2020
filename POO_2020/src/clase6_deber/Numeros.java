@@ -53,7 +53,7 @@ public class Numeros {
     }
 
     public void obtenerN() {
-        if (i == 1){
+        if (i == 0){
             
         menor = n;
         }

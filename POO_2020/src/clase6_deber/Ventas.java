@@ -63,7 +63,7 @@ public class Ventas {
     }
     
     public void calcularValores(){
-        utilidad = (costo * 0.120);
+        utilidad = (costo * 1.20);
         impuesto = (costo + utilidad)* 0.15;
         precio = costo + utilidad + impuesto;
     }

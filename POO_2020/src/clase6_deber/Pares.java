@@ -32,7 +32,8 @@ public class Pares {
         this.pares = pares;
     }
 
-    public void obtenerPares() {
+    public void obtenerPares(){
+        
         if (n % 2 == 0) {
             pares = pares + n;
 

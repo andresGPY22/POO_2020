@@ -10,41 +10,39 @@ package clase6_deber;
  * @author Claudio
  */
 public class Compañia {
-    private String vendedor;
-    private int ventas;
-    private int mayor;
-    private int menor;
+    private String nombre;
+    private double precio_auto;
+    private double total_ventas;
 
-    public String getVendedor() {
-        return vendedor;
+    public Compañia(String nombre, double total_ventas) {
+        this.nombre = nombre;
+        this.total_ventas = total_ventas;
+    }
+    
+    
+
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setVendedor(String vendedor) {
-        this.vendedor = vendedor;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
-    public int getVentas() {
-        return ventas;
+    public double getPrecio_auto() {
+        return precio_auto;
     }
 
-    public void setVentas(int ventas) {
-        this.ventas = ventas;
+    public void setPrecio_auto(double precio_auto) {
+        this.precio_auto = precio_auto;
     }
 
-    public int getMayor() {
-        return mayor;
+    public double getTotal_ventas() {
+        return total_ventas;
     }
 
-    public void setMayor(int mayor) {
-        this.mayor = mayor;
-    }
-
-    public int getMenor() {
-        return menor;
-    }
-
-    public void setMenor(int menor) {
-        this.menor = menor;
+    public void setTotal_ventas(double total_ventas) {
+        this.total_ventas = total_ventas;
     }
     
     
